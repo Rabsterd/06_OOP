@@ -1,4 +1,6 @@
-package edu.kh.oop.practice.model.vo;
+package edu.kh.oop.practice.model.service;
+
+import edu.kh.oop.practice.model.vo.Hero;
 
 public class HeroService {
 	public void practice() {
