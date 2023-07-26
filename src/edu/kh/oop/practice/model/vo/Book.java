@@ -6,7 +6,7 @@ public class Book {
 	private double discountRate;
 	private String author;
 	
-	public Book() {System.out.printf("%s / %d / %.1f / %s",null, 0 , 0.0, null);}
+	public Book() {}
 	
 	public Book(String title, int price, double discountRate, String author) {
 		
@@ -14,6 +14,7 @@ public class Book {
 		this.price = price;
 		this.discountRate = discountRate;
 		this.author = author;
+		
 	}	
 	
 
@@ -49,8 +50,8 @@ public class Book {
 		this.author = author;
 	}
 	
-	
-	
-	
+	public String toString() {
+		return title + " / " + price + " / " + discountRate + " / " + author;
+	}
 	
 }
